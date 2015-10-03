@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    color: black;
+}
+header {
+    font-family: Verdana;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+table, tr, td {
+    border: 1px solid black;
+}
