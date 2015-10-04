@@ -58,7 +58,199 @@ footer {
     box-decoration-break: unset;
     box-shadow: 10px 10px 5px #888888;
     bottom: 10px;
+    margin-right: 800px;
 }
 img {
     opacity: 0.9;
+    float: left;
+    clip: rect(0px,60px,200px,0px);
+    max-height: 250px;
+    max-width: 400px;
+    min-height:250px;
+    max-width: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+p {
+    clear: both;
+    display: inline;
+    margin: 100px 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+    padding: 25px 50px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    position: static;
+    z-index: auto;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    flex: 1;
+    flex-basis: 80px;
+    flex-direction: row;
+    flex-flow: row;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-wrap: nowrap;
+    justify-content: center;
+    order: inherit;
+    hyphens: auto;
+    letter-spacing: normal;
+    line-break: normal;
+    line-height: normal;
+    overflow-wrap: normal;
+    tab-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    text-combine-upright: none;
+    text-indent: 200px;
+    text-justify: auto;
+    text-transform: none;
+    white-space: normal;
+    word-spacing: 3px;
+    word-wrap: normal;
+    text-decoration: none;
+    text-decoration-color: black;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-shadow: none;
+    text-underline-position: auto;
+    font: normal;
+    font-feature-settings: normal;
+    font-kerning: normal;
+    font-language-override: normal;
+    font-size: medium;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: none;
+    font-variant: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    direction: inherit;
+    text-orientation: mixed;
+    text-combine-upright: none;
+    unicode-bidi: normal;
+    writing-mode: unset;
+
+}
+table {
+    height: 15px;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    visibility: visible;
+    width: 500px;
+    vertical-align: text-top;
+    border-collapse: inherit;
+    border-spacing: inherit;
+    caption-side: inherit;
+    empty-cells: inherit;
+    table-layout: inherit;
+
+}
+li {
+    counter-increment: inherit;
+    counter-reset: none;
+    list-style: inherit;
+    list-style-image: none;
+    list-style-position: inherit;
+    list-style-type: none;
+
+}
+div {
+    width: 100px;
+    height: 100px;
+    background: none;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    -webkit-animation-delay: 2s;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-name: mymove;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 1000px;}
+}
+h6 {
+    backface-visibility: hidden;
+    perspective: 500px;
+    perspective-origin: 10% 10%;
+    transform: rotate(7deg);
+    transform-origin: 20% 40%;
+    transform-style: preserve-3d;
+    transition: width 2s;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+h5 {
+    box-sizing: inherit;
+    content: normal;
+    cursor: pointer;
+    ime-mode: normal;
+    nav-down: auto;
+    nav-index: auto;
+    nav-left: auto;
+    nav-right: auto;
+    nav-up: auto;
+    outline: auto;
+    outline-color: black;
+    outline-offset: 22px;
+    outline-style: none;
+    outline-width: medium;
+    resize: none;
+    text-overflow: clip;
+
+}
+blockquote {
+    break-after: auto;
+    break-before: auto;
+    break-inside: auto;
+    column-count: 3;
+    column-fill: auto;
+    column-gap: 40px;
+    column-rule: 4px;
+    column-rule-color: #ff00ff;
+    column-rule-style: outset;
+    column-rule-width: 20px;
+    column-span: all;
+    column-width: 100px;
+    columns: 20px;
+    widows: 3;
+}
+h4 {
+    orphans: 3;
+    page-break-after: always;
+    page-break-before: always;
+    page-break-inside: auto;
+    marks: none;
+    quotes: "«" "»";
+    filter: opacity(25%);
+    image-rendering: auto;
+    image-resolution: from-image;
+    object-fit: fill;
+    object-position: inherit;
+    mask: none;
+    mask-type: unset;
+
 }
