@@ -101,7 +101,7 @@
 </aside>
 <section>
 <h5><>h5 <i>iiiiii</i>header</h5>
-    <p><small>ajshfashgfskdjfsjkfh<span style="color:blue;font-weight:bold">bsdf</span>skjfsfjksdfhsdjkfhsd</small></p>
+    <p><small>ajshfa<wbr>shgfskdjfsjkfh<span style="color:blue;font-weight:bold">bsdf</span>skjfsfjksdfhsdjkfhsd</small></p>
     </section>
 <h6>h6 header</h6>
 
@@ -206,6 +206,9 @@ Suvaline tekst, Suvaline tekst, Suvaline tekst, Suvaline tekst
 <textarea rows="4" cols="50">
 Hello hello world,Hello hello world,Hello hello world,Hello hello world,
 </textarea>
+    <var>Variable</var><br>
+
+
 
     <br>
 <button type="button" onclick="alert('Tere-tere!')">Vajuta siia!</button>

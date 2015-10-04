@@ -1,5 +1,12 @@
 body {
     background-color: white;
+    background-image: url('http://www.ceramica-picasa.eu/uploads/images/plytki/Super%20Grey/Super%20Grey%2030x60.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-size: 8000px 6000px;
 }
 h1 {
     font-family: Verdana;
@@ -14,4 +21,44 @@ header {
 }
 table, tr, td {
     border: 1px solid black;
+}
+h2 {
+    border-style: solid;
+    border-bottom: solid;
+    border-bottom-color: #ff0000;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #ff0000;
+    border-image: url('http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg');
+    border-image-outset: 10px;
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+    border-image-source: url('http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg');
+    border-image-width: 3px;
+    border-left: thick double;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-radius: 50px;
+    border-right: thick double;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top: thick double;
+    border-top-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-width: 10px;
+}
+footer {
+    box-decoration-break: unset;
+    box-shadow: 10px 10px 5px #888888;
+    bottom: 10px;
+}
+img {
+    opacity: 0.9;
 }
