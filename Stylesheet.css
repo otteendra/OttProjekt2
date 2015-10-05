@@ -142,6 +142,10 @@ p {
     text-combine-upright: none;
     unicode-bidi: normal;
     writing-mode: unset;
+    marquee-direction: forward;
+    marquee-play-count: none;
+    marquee-speed: normal;
+    marquee-style: scroll;
 
 }
 table {
