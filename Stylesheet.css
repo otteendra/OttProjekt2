@@ -67,7 +67,7 @@ img {
     max-height: 250px;
     max-width: 400px;
     min-height:250px;
-    max-width: 400px;
+    min-width: 400px;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: hidden;
